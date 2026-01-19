@@ -1,0 +1,21 @@
+From 28e177466fda8f8f0aa93f215e984a65052535a8 Mon Sep 17 00:00:00 2001
+From: Nio Azizudin <io.rvrse@gmail.com>
+Date: Mon, 22 Dec 2025 15:37:19 +0700
+Subject: [PATCH] Add default 1080p resolution to fix AGL UI
+
+---
+ include/configs/apalis-imx8.h | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/include/configs/apalis-imx8.h b/include/configs/apalis-imx8.h
+index 1d05bcae997..84b8ec1f52b 100644
+--- a/include/configs/apalis-imx8.h
++++ b/include/configs/apalis-imx8.h
+@@ -50,6 +50,7 @@
+ 	"fdt_board=eval\0" \
+ 	"initrd_addr=0x83800000\0" \
+ 	"initrd_high=0xffffffffffffffff\0" \
++        "tdxargs=video=HDMI-A-1:1920x1080-32@60\0" \
+ 	"setup=setenv setupargs console=tty1 console=${console},${baudrate} " \
+ 		"consoleblank=0 earlycon\0" \
+ 	"update_uboot=askenv confirm Did you load flash.bin resp. u-boot-dtb.imx (y/N)?; " \
