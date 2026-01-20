@@ -77,7 +77,7 @@ Where:
 ## Build the Image
 
 ```bash
-bitbake agl-demo-flutter
+bitbake agl-ivi-demo-flutter
 ```
 
 The generated images will be available in:
