@@ -78,7 +78,9 @@
   <!-- consolidate on meta-freescale from git.yoctoproject.org -->
   <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="7286bef07802fc493894c5917a315d53c8fe2191" upstream="kirkstone"/>
   <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="48516272d97f9415e0ee3ab54a923e4c40143e69" upstream="kirkstone"/>
+  <project name="Freescale/meta-freescale-distro" path="bsp/meta-freescale-distro" remote="github" revision="d5bbb487b2816dfc74984a78b67f7361ce404253" upstream="kirkstone"/>
 
+  
   <!-- TI Vayu / Jacinto 6 / DRA7 -->
   <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="c3e9fb12aa31d25e33d8392c4a233ed1275a3278" upstream="kirkstone"/>
   <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="52018a8d730b2977d7163bf56c398905ef9115ac" upstream="kirkstone"/>
